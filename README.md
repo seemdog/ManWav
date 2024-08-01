@@ -3,7 +3,7 @@
 This repository provides the Manchu audio data used in [ManWav: The First Manchu ASR Model](https://arxiv.org/pdf/2406.13502).
 
 ## Model Usage
-```
+```python
 from transformers import AutoProcessor, AutoModelForCTC
 
 processor = AutoProcessor.from_pretrained("seemdog/ManWav")
